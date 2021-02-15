@@ -1,0 +1,66 @@
+Given phrases such as:
+
+
+----------    ---------- 
+----------    ---------- 
+----------    ---------- 
+----------    ---------- 
+
+How to group them?
+
+By Date				  By Location
+By Words-in-Common	  By Emotion
+
+This project is about COLLECTIVE EMOTION IN COVID TIME. It is an experiment in trauma-amelioration. The project supposes, at its most basic level, that if a person feels a part of something outside of themselves, it gives them resilience. It seeks to achieve that feeling by offering a way to make your words appear as part of a collective of many people's words. 
+
+All this is based in emotional impact.
+
+So, out of –
+
+By Date				  By Location
+By Words-in-Common	  By Emotion
+
+– it's the last one, 'By Emotion,' that best fits as a categorization strategy. 
+
+The categories of two main emotions-researchers emerge:
+
+Dr. Paul Ekman        Dr. Robert Plutchik 
+(1990s)				  (1950s)
+
+1				      1
+
+2				      2
+
+3				      3
+
+4				      4
+
+5				      5
+
+6				      6
+
+With visualizations:
+
+
+So this is a range of __ (x number) emotions. Each one could be represented with a hexadecimal score ...
+
+(image)
+
+However, research from USF researcher (linguist? morphosyntactician?) Jenny Lee in (this great article) asks: what about syntax?
+WHAT 
+ABOUT 
+SYNTAX?
+-- Quote from Jenny Lee on lexicon vs syntax.
+
+And, in fact, spaCy.io, a great library for the sophisticated linguistic analysis techniques employed in Natural Language Processing (which help program AIs such as Siri and Alexa) has extensive treatment of syntax.
+
+So, how to group these phrases –
+
+
+– in a way that EMPHASIZES THE EMOTIONAL RECOGNITION you feel when you encounter them?
+
+
+See notes on APIs || Libraries. (writing_sentiment_processing_links.txt)
+
+
+

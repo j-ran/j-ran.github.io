@@ -1,0 +1,68 @@
+
+Started 15 Feb 2021
+
+(1)
+
+<p>We Keep Noticing holds the memories of times we've gone through together and how they have changed us.</p> 
+<p>The work started with interviews about pandemic life in 2020. Artists Janaki Ranpura and Katherine Wilkinson interviewed people from around the United States and collected their statements into an exhibit at ZAZ10TS gallery in Times Square, Manhattan, with the help of Limei Wang.</p> 
+
+	<div>
+		<img src = "/static/imgs/github_cover_img.png">
+	</div>	
+
+<p>Those brief, heartfelt statements are the seeds of this internet collection. Here, Janaki is matching the statements with facts about the pandemic, showing the emotions in context.</p>
+
+<p>When we can feel together, we can act together. Let's do that: let's keep noticing.</p>
+
+<a href = "zaz.html">About We Respond 2020</a>
+
+
+(2)
+
+<p>See the gallery website for information about the 2020 version of the project.
+<href = https://www.zaz10ts.com/we-respond>ZAZ10TS, We Respond project</href></p>
+<-- <img gallery>
+<img statements02> -->
+
+
+(3)
+
+<p>Lightning Talk on emotional parsing </p>
+	<div>
+    	<p>* patientez svp: in process *</p>
+    	<img src = /static/imgs/lightning_talk01.png width="800">
+    </div>
+
+
+(4)
+
+<p>Timeline for an Agile Dev sprint for v.1 product</p>
+	<div>
+    	<p>Working with all the great people at Hackbright Academy to make it happen.</p>
+    	<img src = /static/imgs/00_sprint_timeline.png width="800">
+    </div>
+
+    <div>
+    	<p>Features and tech stack.</p>
+    	<img src = /static/imgs/backend_flow02.png width="800">
+    </div>
+
+(5)
+Data Model
+
+
+
+(6)
+UI wireframe
+
+
+
+(7)
+<p>Dev Toolkit: what are the programming tools being used</p>
+	<div>
+    	<p>* This is very in process! Please be patient ... *</p>
+    	<img src = /static/imgs/00_programming_diagram.png width="800">
+    </div>
+
+
+

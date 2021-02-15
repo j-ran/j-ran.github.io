@@ -1,0 +1,71 @@
+This is a list of comments that is meant to help with the sentiment-scoring part of the project.
+The entries are organized in the following way:
+(#)
+WHAT KIND OF THING IS IT
+COMMENTS
+WHAT IS IT CALLED
+WHERE IS IT LOCATED
+
+(1)
+A library for sentiment analysis in Python.
+It is built for researchers, and so while it is very well put together, it is not so straightforward to use.
+“spaCy”
+Try some code: https://spacy.io/usage/models
+Some of spaCy’s features here: https://spacy.io/usage/spacy-101#features
+Uses Penn-Treebank annotation method. That is a research method. See:
+https://www.seas.upenn.edu/~pdtb/publications.shtml
+
+(2)
+API that parses phrases
+Would probably need Markov chains to get a score
+“SenticNet"
+https://sentic.net/api/
+
+(3)
+API that parses phrases (also, like the above)
+Didn’t look too much …
+“MeaningCloud”
+https://www.meaningcloud.com/products/deep-categorization
+
+(4)
+This is a collection of tools.
+It’s a mix of tactics, and it still needs to be looked at.
+"Data Monters"
+https://medium.com/@datamonsters/sentiment-analysis-tools-overview-part-1-positive-and-negative-words-databases-ae35431a470c
+
+(5)
+This is a lexicon-based (i.e., word-by-word) scoring system. 
+Interesting, but uses “domain-specific” lexicons such as ‘sports’ and ‘female,’ making me feel the thinking in this work is old-fashioned.
+“SocialSent”
+https://nlp.stanford.edu/projects/socialsent/
+
+(6)
+Spelling-based library
+To help figure out if a word is a word, there is a library.
+“PyEnchant”
+https://pypi.org/project/pyenchant/
+
+(7)
+Simple text-to-emotion python file
+Probably TOO simple / simplistic to be meaningful
+""text2emotion"
+https://towardsdatascience.com/text2emotion-python-package-to-detect-emotions-from-textual-data-b2e7b7ce1153
+
+
+. . .
+Here are other good and useful references — 
+
+Article that has helped me a lot by linguist Jenny Lee:
+https://towardsdatascience.com/linguistic-rule-writing-for-nlp-ml-64d9af824ee8
+
+Collection of tabs based on research springing from Jenny Lee article:
+https://www.one-tab.com/page/BVom2umCQnOxdlVp77hXpw
+
+Website for this project:
+https://j-ran.github.io/templates/index.html
+
+Covid data API being used in this project:
+https://covidtracking.com/data/api
+
+Article on sentiment categorization:
+https://positivepsychology.com/emotion-wheel/
