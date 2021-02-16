@@ -4,3 +4,5 @@ env*
 *.pyc
 __pycache__/
 *in-progress*
+writing_*
+*.psd

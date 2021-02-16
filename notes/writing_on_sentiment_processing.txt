@@ -1,15 +1,17 @@
 Given phrases such as:
 
-
-----------    ---------- 
-----------    ---------- 
-----------    ---------- 
-----------    ---------- 
+An artist said, "I release the idea of "normal". "
+A medical student said, "I want to build trusting relationships with my patients. "
+A dermatologist said, "Guilty as I feel to say this, I have never been happier."
+A director said, "Constellations are forming."
+A writer said, "After my "word day" is done, I take myself on a walk."
+An admissions officer said, "Change feels so necessary in a time when I am physically stuck. "
+A nurse said, "Medicine and testing move slowly, I think many people don’t realize that dynamic." 
 
 How to group them?
 
-By Date				  By Location
-By Words-in-Common	  By Emotion
+By Date			By Location
+By Words-in-Common	By Emotion
 
 This project is about COLLECTIVE EMOTION IN COVID TIME. It is an experiment in trauma-amelioration. The project supposes, at its most basic level, that if a person feels a part of something outside of themselves, it gives them resilience. It seeks to achieve that feeling by offering a way to make your words appear as part of a collective of many people's words. 
 
@@ -17,7 +19,7 @@ All this is based in emotional impact.
 
 So, out of –
 
-By Date				  By Location
+By Date		          By Location
 By Words-in-Common	  By Emotion
 
 – it's the last one, 'By Emotion,' that best fits as a categorization strategy. 
@@ -25,42 +27,48 @@ By Words-in-Common	  By Emotion
 The categories of two main emotions-researchers emerge:
 
 Dr. Paul Ekman        Dr. Robert Plutchik 
-(1990s)				  (1950s)
+(1990s)				  (1980s)
 
-1				      1
+anger			       anger
+fear			       fear
+sadness			       sadness
+disgust			       disgust
+surprise		       surprise
+contempt		       anticipation
+enjoyment		       trust
+			       joy
 
-2				      2
-
-3				      3
-
-4				      4
-
-5				      5
-
-6				      6
-
-With visualizations:
+Here are visualizations, with Ekman on the left, Plutchik on the right:
 
 
-So this is a range of __ (x number) emotions. Each one could be represented with a hexadecimal score ...
+There are over 30 named emotions. Each one could be represented with a hexadecimal score ...
 
 (image)
 
-However, research from USF researcher (linguist? morphosyntactician?) Jenny Lee in (this great article) asks: what about syntax?
+However, a linguist at the education company Chegg, Jenny Lee, questions a word-by-word analysis of phrases. She asks, What about syntax?
 WHAT 
 ABOUT 
 SYNTAX?
--- Quote from Jenny Lee on lexicon vs syntax.
+"As students of NLP, we are repeatedly introduced to an NLP pipeline that includes preprocessing techniques like stop words removal, lemmatization/stemming, and bag-of-words representation. These techniques are valuable in many cases but are inherently subtractive: They remove chunks of syntactic (and/or morphological) information that are present in the original text. Stop words removal eliminates function words which encode information about the relations between constituents/phrases, e.g., into, from, to, the, and, etc. Lemmatization and stemming removes important inflectional features such as tense and agreement as well as derivational affixes that may be crucial to determining the precise meaning of a word (e.g., -er in teacher, -ment in -embezzlement). And of course, bag-of-words representations disregard word order, a significant loss for a language like English which does not use morphological case to indicate word order. When these steps become normal and recurring parts of our everyday NLP pipeline, it has the potential to obscure or minimize the role that syntactic structure actually does play in natural language processing, consequently hindering or discouraging any efforts to systematically measure its impact on NLP models."
+(article: in this great article: https://towardsdatascience.com/linguistic-rule-writing-for-nlp-ml-64d9af824ee8)
 
 And, in fact, spaCy.io, a great library for the sophisticated linguistic analysis techniques employed in Natural Language Processing (which help program AIs such as Siri and Alexa) has extensive treatment of syntax.
 
-So, how to group these phrases –
+So, how to group these kinds of phrases –
+
+A playwright said, "The weird gift of a second maternity leave."
+An admissions officer said, "Selfish with my boundaries."
+A designer said, "Every day, I have lunch and afternoon tea with my parents. "
+A tutor said, "I've decided to accept okay as what I'm aiming for. "
+A writer said, "Oxytocin deprivation is real. "
+An artist said, "I can still be in awe of the natural world right now."
+A dramaturg said, "I turned off the Zoom and cried for an hour."
 
 
 – in a way that EMPHASIZES THE EMOTIONAL RECOGNITION you feel when you encounter them?
 
 
-See notes on APIs || Libraries. (writing_sentiment_processing_links.txt)
+See further notes on APIs || Libraries here. (writing_sentiment_processing_links.txt)
 
 
 
