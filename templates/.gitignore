@@ -4,5 +4,4 @@ env*
 *.pyc
 __pycache__/
 *in-progress*
-writing_log.txt
 *.psd
