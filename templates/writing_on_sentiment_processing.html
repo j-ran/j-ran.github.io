@@ -1,74 +1,108 @@
-Given phrases such as:
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>We Keep Noticing, a sentiment analysis project</title>
+      <!-- Google font -->
+      <link href='https://fonts.googleapis.com/css?family=Carrois Gothic' rel='stylesheet'>
+      <style>
+        body {
+              font-family: 'Carrois Gothic';
+              font-size: 22px;
+             }
+      </style>
+  </head>
 
-An artist said, "I release the idea of "normal". "
-A medical student said, "I want to build trusting relationships with my patients. "
-A dermatologist said, "Guilty as I feel to say this, I have never been happier."
-A director said, "Constellations are forming."
-A writer said, "After my "word day" is done, I take myself on a walk."
-An admissions officer said, "Change feels so necessary in a time when I am physically stuck. "
-A nurse said, "Medicine and testing move slowly, I think many people don’t realize that dynamic." 
 
-How to group them?
 
-By Date			By Location
-By Words-in-Common	By Emotion
+  <body>
 
-This project is about COLLECTIVE EMOTION IN COVID TIME. It is an experiment in trauma-amelioration. The project supposes, at its most basic level, that if a person feels a part of something outside of themselves, it gives them resilience. It seeks to achieve that feeling by offering a way to make your words appear as part of a collective of many people's words. 
+    <h2>About Sentiment Analysis</h2>  
 
-All this is based in emotional impact.
+Given phrases such as:<br>
+<br>
+A medical student said, "I want to build trusting relationships with my patients."<br>
+A dermatologist said, "Guilty as I feel to say this, I have never been happier."<br>
+A director said, "Constellations are forming."<br>
+A writer said, "After my "word day" is done, I take myself on a walk."<br>
+An admissions officer said, "Change feels so necessary in a time when I am physically stuck."<br>
+A nurse said, "Medicine and testing move slowly, I think many people don’t realize that dynamic."<br> 
+<br>
+How to group them?<br>
+<br>
+By Date			    By Location<br>
+By Words-in-Common	By Emotion<br>
+<br>
+This project is about COLLECTIVE EMOTION IN COVID TIME. It is an experiment in trauma-amelioration. The project supposes, at its most basic level, that if a person feels a part of something outside of themselves, it gives them resilience. It seeks to achieve that feeling by offering a way to make your words appear as part of a collective of many people's words.<br> 
+<br>
+All this is based in emotional impact.<br>
+<br>
+So, out of –<br>
 
-So, out of –
-
-By Date		          By Location
-By Words-in-Common	  By Emotion
-
-– it's the last one, 'By Emotion,' that best fits as a categorization strategy. 
-
-The categories of two main emotions-researchers emerge:
-
-Dr. Paul Ekman        Dr. Robert Plutchik 
-(1990s)				  (1980s)
-
-anger			       anger
-fear			       fear
-sadness			       sadness
-disgust			       disgust
-surprise		       surprise
-contempt		       anticipation
-enjoyment		       trust
-			       joy
-
-Here are visualizations, with Ekman on the left, Plutchik on the right:
-
+By Date		          By Location<br>
+By Words-in-Common	  By Emotion<br>
+<br>
+– it's the last one, 'By Emotion,' that best fits as a categorization strategy.<br> 
+<br>
+The categories of two main emotions-researchers emerge:<br>
+<br>
+Dr. Paul Ekman        Dr. Robert Plutchik<br> 
+(1990s)				  (1980s)<br>
+<br>
+anger			       anger<br>
+fear			       fear<br>
+sadness			       sadness<br>
+disgust			       disgust<br>
+surprise		       surprise<br>
+contempt		       anticipation<br>
+enjoyment		       trust<br>
+			           joy<br>
+<br>
+Here are visualizations, with Ekman on the left, Plutchik on the right:<br>
+	<div>
+        <img src = "/static/imgs/ekman_plutchik.png" width="800">
+    </div>
 
 There are over 30 named emotions. Each one could be represented with a hexadecimal score ...
 
-(image)
+	<div>
+        <img src = "/static/imgs/html_color_picker.png">
+    </div>
 
-However, a linguist at the education company Chegg, Jenny Lee, questions a word-by-word analysis of phrases. She asks, What about syntax?
-WHAT 
-ABOUT 
-SYNTAX?
-"As students of NLP, we are repeatedly introduced to an NLP pipeline that includes preprocessing techniques like stop words removal, lemmatization/stemming, and bag-of-words representation. These techniques are valuable in many cases but are inherently subtractive: They remove chunks of syntactic (and/or morphological) information that are present in the original text. Stop words removal eliminates function words which encode information about the relations between constituents/phrases, e.g., into, from, to, the, and, etc. Lemmatization and stemming removes important inflectional features such as tense and agreement as well as derivational affixes that may be crucial to determining the precise meaning of a word (e.g., -er in teacher, -ment in -embezzlement). And of course, bag-of-words representations disregard word order, a significant loss for a language like English which does not use morphological case to indicate word order. When these steps become normal and recurring parts of our everyday NLP pipeline, it has the potential to obscure or minimize the role that syntactic structure actually does play in natural language processing, consequently hindering or discouraging any efforts to systematically measure its impact on NLP models."
-(article: in this great article: https://towardsdatascience.com/linguistic-rule-writing-for-nlp-ml-64d9af824ee8)
+However, a linguist at the education company Chegg, Jenny Lee, questions a word-by-word analysis of phrases. She asks, What about syntax?<br>
+WHAT<br> 
+ABOUT<br> 
+SYNTAX?<br>
+"As students of NLP, we are repeatedly introduced to an NLP pipeline that includes preprocessing techniques like stop words removal, lemmatization/stemming, and bag-of-words representation. These techniques are valuable in many cases but are inherently subtractive: They remove chunks of syntactic (and/or morphological) information that are present in the original text. Stop words removal eliminates function words which encode information about the relations between constituents/phrases, e.g., into, from, to, the, and, etc. Lemmatization and stemming removes important inflectional features such as tense and agreement as well as derivational affixes that may be crucial to determining the precise meaning of a word (e.g., -er in teacher, -ment in -embezzlement). And of course, bag-of-words representations disregard word order, a significant loss for a language like English which does not use morphological case to indicate word order. When these steps become normal and recurring parts of our everyday NLP pipeline, it has the potential to obscure or minimize the role that syntactic structure actually does play in natural language processing, consequently hindering or discouraging any efforts to systematically measure its impact on NLP models."<br>
+	<div>
+        <a href = "https://towardsdatascience.com/linguistic-rule-writing-for-nlp-ml-64d9af824ee8">– quote from this article</a>
+    </div>
+<br>
+And, in fact, spaCy.io, a great library for the sophisticated linguistic analysis techniques employed in Natural Language Processing (which help program AIs such as Siri and Alexa) has extensive treatment of syntax.<br>
+<br>
+<br>
+So, how to group these kinds of phrases –<br>
+<br>
+A playwright said, "The weird gift of a second maternity leave."<br>
+An admissions officer said, "Selfish with my boundaries."<br>
+A designer said, "Every day, I have lunch and afternoon tea with my parents."<br>
+A tutor said, "I've decided to accept okay as what I'm aiming for."<br>
+A writer said, "Oxytocin deprivation is real."<br>
+An artist said, "I can still be in awe of the natural world right now."<br>
+A dramaturg said, "I turned off the Zoom and cried for an hour."<br>
+<br>
+– in a way that EMPHASIZES THE EMOTIONAL RECOGNITION you feel when you encounter them?<br>
+<br>
+<br>
+See further notes on APIs || Libraries in a text file: writing_sentiment_processing_links.txt<br>
 
-And, in fact, spaCy.io, a great library for the sophisticated linguistic analysis techniques employed in Natural Language Processing (which help program AIs such as Siri and Alexa) has extensive treatment of syntax.
+  <div>
+      <p>back to <a href = "index.html">Index</a></p>
+  </div>
 
-So, how to group these kinds of phrases –
-
-A playwright said, "The weird gift of a second maternity leave."
-An admissions officer said, "Selfish with my boundaries."
-A designer said, "Every day, I have lunch and afternoon tea with my parents. "
-A tutor said, "I've decided to accept okay as what I'm aiming for. "
-A writer said, "Oxytocin deprivation is real. "
-An artist said, "I can still be in awe of the natural world right now."
-A dramaturg said, "I turned off the Zoom and cried for an hour."
-
-
-– in a way that EMPHASIZES THE EMOTIONAL RECOGNITION you feel when you encounter them?
-
-
-See further notes on APIs || Libraries here. (writing_sentiment_processing_links.txt)
+  </body>
+</html>
 
 
 
